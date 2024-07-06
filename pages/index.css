@@ -2,7 +2,21 @@
   font-family: "Inter";
   src: url("../fonts/Inter-Regular.otf") format("opentype");
   font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+  font-style: normal;
   font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
@@ -10,7 +24,7 @@
   src: url("../fonts/NotoSerif-Italic-VariableFont_wdth-wght.ttf")
     format("truetype");
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @media (max-width: 1300px) {
@@ -21,7 +35,7 @@
 }
 
 .page {
-  min-width: 1300px;
+  min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -140,17 +154,17 @@
   line-height: 20px;
 }
 
-.header__footer__paragraph {
+.header__footer-paragraph {
   margin: 0 0 0 80px;
   padding: 0;
 }
 
-.header__footer__list {
+.header__footer-list {
   list-style-type: none;
   padding: 0;
 }
 
-.header__footer__list-item {
+.header__footer-item {
   margin: 0;
   padding: 0;
 }
