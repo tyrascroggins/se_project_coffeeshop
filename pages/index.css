@@ -308,9 +308,7 @@
   height: 20px;
 }
 
-/* video did form__label_type_checkbox, would like to see if I'm still in line with BEM */
-
-.form__checkbox_content {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
