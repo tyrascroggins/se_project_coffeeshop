@@ -48,8 +48,8 @@ Book a table
 
 Name _
 Number of guests _
-Date & time _
-Your email _
+Date & time
+Your email \*
 
 Book a table
 
