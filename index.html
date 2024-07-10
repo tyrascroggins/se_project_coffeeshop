@@ -121,6 +121,7 @@
               <label for="name" class="form__label">
                 Name *
                 <input
+                  required
                   id="name"
                   type="text"
                   class="form__input"
@@ -132,6 +133,7 @@
                 Number of guests *
 
                 <input
+                  required
                   id="number"
                   type="number"
                   class="form__input"
@@ -142,6 +144,7 @@
               <label for="datetime" class="form__label">
                 Date & time *
                 <input
+                  required
                   id="datetime"
                   type="datetime-local"
                   class="form__input"
@@ -151,6 +154,7 @@
               <label for="email" class="form__label">
                 Your email *
                 <input
+                  required
                   id="email"
                   type="email"
                   class="form__input"
@@ -160,7 +164,12 @@
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__lable form__checkbox_content"
-              ><input id="checkbox" type="checkbox" class="form__checkbox" />
+              ><input
+                required
+                id="checkbox"
+                type="checkbox"
+                class="form__checkbox"
+              />
               &nbsp; I agree with the terms of use
             </label>
           </form>
