@@ -308,7 +308,7 @@
   height: 20px;
 }
 
-.form__label__type_checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
