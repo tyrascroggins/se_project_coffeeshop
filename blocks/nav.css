@@ -13,9 +13,8 @@
   display: flex;
   column-gap: 20px;
   padding: 0;
-  margin-top: 30px;
-  margin-left: 80px;
   list-style-type: none;
+  margin: 30px 0 0 80px;
 }
 
 .nav__link {
@@ -31,18 +30,13 @@
 .nav__link:visited {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
-
   color: #000000;
 }
 
 .nav__link:hover {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
-  color: #d35722;
-}
-
-.nav__link:active {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
-  color: #000000;
+  color: #2f80ed;
+  background-color: rgb(2, 2, 2);
+  transition: background-color 1s;
 }

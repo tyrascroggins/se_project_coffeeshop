@@ -5,7 +5,6 @@
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.25);
   }
   to {
     opacity: 0;
@@ -22,7 +21,6 @@
   margin: 0;
   overflow: hidden;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 .about__title {
@@ -46,12 +44,12 @@
 }
 
 .about__paragraph {
-  gap: 20px;
   padding: 0;
+  margin: 0;
 }
 
 .about__circle {
-  background-color: blue;
+  background-color: #2f80ed;
   top: -152px;
   left: -129px;
   width: 426px;
