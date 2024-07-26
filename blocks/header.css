@@ -31,6 +31,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 2;
 }
 
 .header__description {
@@ -41,10 +42,10 @@
   margin: 28px 0 0 80px;
   font-family: "Noto Serif", Times New Roman, serif;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__image {
-  z-index: 2;
   position: absolute;
   width: 646px;
   height: 568px;
@@ -66,17 +67,8 @@
   padding: 0;
 }
 
-.header__footer-paragraph {
+.header__paragraph {
   margin: 0;
   padding: 0;
-  flex-direction: column;
-}
-
-.header__address {
-  padding: 0;
-  margin: 0 0 0 auto;
   align-self: flex-end;
-}
-p {
-  margin: 0;
 }

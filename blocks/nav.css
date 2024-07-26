@@ -37,6 +37,5 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   color: #2f80ed;
-  background-color: rgb(2, 2, 2);
-  transition: background-color 1s;
+  transition: color 1s;
 }

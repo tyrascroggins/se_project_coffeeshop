@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .footer__logo {
   width: 105px;
   height: 39px;
@@ -26,6 +27,7 @@
 .footer__list-item {
   margin: 0 0 16px;
 }
+
 .footer__list-item:last-child {
   margin: 0;
 }
@@ -58,14 +60,10 @@
 .footer__social-link:last-child {
   margin: 0;
 }
+
 .footer__social-link:hover {
   color: #c1c1c1;
   cursor: pointer;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .footer__social-icon {

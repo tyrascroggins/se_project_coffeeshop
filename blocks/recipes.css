@@ -19,7 +19,6 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  font-weight: bold;
 }
 
 .recipes__subtitle {
@@ -59,7 +58,4 @@
   font-size: 20px;
   line-height: 30px;
   align-items: baseline;
-}
-p {
-  margin: 0;
 }

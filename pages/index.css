@@ -7,5 +7,5 @@
 @import url(../blocks/menu.css);
 @import url(../blocks/contact.css);
 @import url(../blocks/footer.css);
-@import url(../blocks/menu__card.css);
-@import url(../blocks/reservations__form.css);
+@import url(../blocks/card.css);
+@import url(../blocks/form.css);
