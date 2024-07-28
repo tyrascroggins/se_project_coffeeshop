@@ -28,10 +28,6 @@
   margin: 0 0 16px;
 }
 
-.footer__list-item:last-child {
-  margin: 0;
-}
-
 .footer__social-heading {
   margin: 0 0 20px;
   text-decoration: none;
@@ -54,10 +50,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 16px;
-}
-
-.footer__social-link:last-child {
   margin: 0;
 }
 

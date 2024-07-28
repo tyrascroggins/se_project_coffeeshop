@@ -52,7 +52,6 @@
 }
 .form__button:hover {
   opacity: 70%;
-  background-color: #838383;
 }
 
 .form__checkbox {

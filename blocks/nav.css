@@ -1,12 +1,12 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  padding: 30px 80px 0 30px;
 }
 
 .nav__logo {
   height: 39px;
   width: 108px;
-  margin: 30px 0 0 30px;
 }
 
 .nav__links {
@@ -14,7 +14,6 @@
   column-gap: 20px;
   padding: 0;
   list-style-type: none;
-  margin: 30px 0 0 80px;
 }
 
 .nav__link {
@@ -28,14 +27,10 @@
 
 .nav__link:link,
 .nav__link:visited {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
   color: #000000;
 }
 
 .nav__link:hover {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
   color: #2f80ed;
   transition: color 1s;
 }
