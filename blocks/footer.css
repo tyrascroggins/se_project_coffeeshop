@@ -28,6 +28,15 @@
   margin: 0 0 16px;
 }
 
+.footer__list-item:last-child {
+  /* FYI..In the first review this was approved and showed good,
+in the last review you asked to take it out,
+now you are asking me to put it back in. I'm guessing this is the process but my
+deadline is the 30th and I will need to do a second request to continue it,
+I'm going to need the review to wrap up prior to that. Is it possible to get it done all in one. All the mistakes or changes in one review? Thanks. */
+  margin: 0;
+}
+
 .footer__social-heading {
   margin: 0 0 20px;
   text-decoration: none;
@@ -56,6 +65,7 @@
 .footer__social-link:hover {
   color: #c1c1c1;
   cursor: pointer;
+  transition: color 1s;
 }
 
 .footer__social-icon {
